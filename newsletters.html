@@ -21,7 +21,7 @@ permalink: /newsletters/
         text-decoration:none;
         color:black;
       }
-      li:hover{
+      a:hover{
         opacity:0.8;
       }
     </style>
@@ -29,9 +29,11 @@ permalink: /newsletters/
   <body style="background-color:#eee;">
     <ul>
       {% for post in site.posts %}
+      <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}">
         <li>
-          <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}">{{ post.title }}</a>
+          {{ post.title }}
         </li>
+      </a>
       {% endfor %}
     </ul>
   </body>
