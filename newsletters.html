@@ -7,7 +7,7 @@ permalink: /newsletters/
 <html>
   <head>
     <style>
-      h1{
+      h1, h2{
         font-family:"Trebuchet MS",Helvetica,serif;
         font-size:30px;
       }
@@ -41,16 +41,19 @@ permalink: /newsletters/
         text-decoration:underline;
       }
     </style>
-    <title>Newsletter Archives</title>
+    <title>IOCS Newsletter Archives</title>
   </head>
   <body style="background-color:#eee;">
     <!--<a href="https://evebej.github.io/IOCS_Newsletter_Repo/" class="back">Back to Homepage</a>-->
-    <h1>Newsletters</h1>
+    <h1>IOCS Newsletters</h1>
+    <h2>2021</h2>
     <ul>
       {% for post in site.posts %}
-       <li>
-         <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
-       </li>
+        {% if post.year == "2021" %}
+         <li>
+           <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
+         </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </body>
