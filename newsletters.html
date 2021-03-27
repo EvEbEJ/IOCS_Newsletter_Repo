@@ -53,11 +53,9 @@ permalink: /newsletters/
     <hr>
     <ul>
       {% for post in site.posts %}
-        {% if post.year == "2021" %}
          <li>
            <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
          </li>
-        {% endif %}
       {% endfor %}
     </ul>
   </body>
