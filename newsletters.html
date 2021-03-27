@@ -6,12 +6,31 @@ permalink: /newsletters/
 <!Doctype HTML>
 <html>
   <head>
+    <style>
+      li{
+        background-color:white;
+        list-style-type:none;
+        padding:20px;
+        border-radius:5px;
+        border:1px solid gray;
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+      }
+      a{
+        text-decoration:none;
+        color:black;
+      }
+      li:hover{
+        opacity:0.8;
+      }
+    </style>
   </head>
   <body style="background-color:#eee;">
     <ul>
       {% for post in site.posts %}
-        <li style="background-color:white;list-style-type:none;padding:20px;border-radius:5px;border:1px solid gray;width:80%;margin:0 auto;text-align:center;">
-          <a style="text-decoration:none;color:black;" href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}">{{ post.title }}</a>
+        <li>
+          <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
