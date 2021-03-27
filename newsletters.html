@@ -7,10 +7,10 @@ permalink: /newsletters/
 <html>
   <head>
   </head>
-  <body>
+  <body style="background-color:#eee;">
     <ul>
       {% for post in site.posts %}
-        <li>
+        <li style="background-color:white;color:black;list-style-type:none;padding:20px;text-decoration:none;border-radius:5px;border:1px solid gray;">
           <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
