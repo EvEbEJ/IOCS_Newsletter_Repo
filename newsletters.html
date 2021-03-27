@@ -7,6 +7,10 @@ permalink: /newsletters/
 <html>
   <head>
     <style>
+      h1{
+        font-family:"Trebuchet MS",Helvetica,serif;
+        font-size:30px;
+      }
       li{
         background-color:white;
         list-style-type:none;
@@ -23,13 +27,16 @@ permalink: /newsletters/
         text-decoration:none;
         color:black;
       }
-      .post:hover{
+      a:hover{
         opacity:0.5;
+        color:#ddd;
       }
     </style>
     <title>Newsletter Archives</title>
   </head>
   <body style="background-color:#eee;">
+    <a href="https://evebej.github.io/IOCS_Newsletter_Repo/>Back</a>
+    <h1>Newsletters</h1>
     <ul>
       {% for post in site.posts %}
       <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">
