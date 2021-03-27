@@ -11,7 +11,9 @@ permalink: /newsletters/
         font-family:"Trebuchet MS",Helvetica,serif;
         font-size:30px;
       }
-      li{
+      a{
+        text-decoration:none;
+        color:black;
         background-color:white;
         list-style-type:none;
         padding:20px;
@@ -23,12 +25,8 @@ permalink: /newsletters/
         font-family:"Trebuchet MS",Helvetica,serif;
         font-size:20px;
       }
-      a{
-        text-decoration:none;
-        color:black;
-      }
       a:hover{
-        opacity:0.5;
+        width:85%;
         color:#ddd;
       }
       .back{
@@ -42,11 +40,9 @@ permalink: /newsletters/
     <h1>Newsletters</h1>
     <ul>
       {% for post in site.posts %}
-      <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">
-        <li>
-          {{ post.title }}
-        </li>
-      </a>
+       <li>
+         <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
+       </li>
       {% endfor %}
     </ul>
   </body>
