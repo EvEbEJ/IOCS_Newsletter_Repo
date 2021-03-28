@@ -9,11 +9,11 @@ featured_pic_alt: Australian Magpie
 featured_pic_description: An <b>Australian Magpie</b>, native to Australia, is an intelligent bird, which all the more shows an Intelligent Creator.
 fact_link: https://lh3.googleusercontent.com/-WWQLEdGfxdk/YF57m76qw7I/AAAAAAAAEvw/2tI-bG51nbo3U5s-MImTT3wC0SIU90agACK8BGAsYHg/s0/2021-03-26.png
 fact_alt: The fingerprint of a koala is so similar to a human's that they have been confused at crime scenes.
-eq_title: <h2 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size:40px;margin-bottom:0;text-align:center;color:black;" class="aheading">3 Reasons Why</h2>
+eq_title: '''<h2 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size:40px;margin-bottom:0;text-align:center;color:black;" class="aheading">3 Reasons Why</h2>
           <h3 style="font-family:'Book Antiqua',Times,serif;font-size: 35px; margin-top:0;text-align:center;color:#777;" class="aheading gr sub">Evolution can not be Real</h3>
-          <h2 class="aheading eqheading1" style="font-size:30px;text-align:center;margin-bottom:0;font-family:'Trebuchet MS',Helvetica,sans-serif;color:black;">The Creation of New Information is Impossible.</h2>
+          <h2 class="aheading eqheading1" style="font-size:30px;text-align:center;margin-bottom:0;font-family:'Trebuchet MS',Helvetica,sans-serif;color:black;">The Creation of New Information is Impossible.</h2>'''
 eq_author: Evan Jiang
-eq_content:<span style="font-family:Arial,Helvetica,sans-serif;line-height: 1.5;font-size:16px;width:60px;">
+eq_content:'''<span style="font-family:Arial,Helvetica,sans-serif;line-height: 1.5;font-size:16px;width:60px;">
           <p style="" class="indent">
             What is <i>information</i>? It is a value stored in matter. For example, take a book.
             The paper and ink are the matter but the printed letters and symbols contain this value that our brains translate into words.
@@ -40,13 +40,13 @@ eq_content:<span style="font-family:Arial,Helvetica,sans-serif;line-height: 1.5;
             No new legs. No new eyes. No new anythings. Just a soup of chemicals.
             Let’s stick with creation, shall we not?
           </p>
-        </span>
-eq_references: <li style="line-height: 1.5; color:grey">Johnson, P.E.(1997). Defeating Darwinism by Opening Minds. InterVarsity Press</li>
-          <li style="line-height: 1.5; color:grey">In saying "brand new," I mean information that had never existed previously.</li>
+        </span>'''
+eq_references: '''<li style="line-height: 1.5; color:grey">Johnson, P.E.(1997). Defeating Darwinism by Opening Minds. InterVarsity Press</li>
+          <li style="line-height: 1.5; color:grey">In saying "brand new," I mean information that had never existed previously.</li>'''
 eq_link:https://talkiocs.blogspot.com/2021/03/the-creation-of-new-information-is.html
 doe_title: <h2 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size:40px;margin-bottom: 0;text-align:center;color:black;" class="aheading">Leviathans and Behemoths</h2>
 doe_authors: Christian Conti
-doe_content: <h3 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size: 35px; margin-top:0;text-align:center;" class="aheading">
+doe_content: '''<h3 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size: 35px; margin-top:0;text-align:center;" class="aheading">
            <img
             src="https://lh3.googleusercontent.com/-JXeeRQeCAbM/YCfYNZ4weFI/AAAAAAAAF3U/wp7dMxSjKfs9YSXoJqzjX1xWiuXiwnQOQCK8BGAsYHg/s0/2021-02-13.jpg"
             alt="Artist's Reconstruction of a Dinosaur."
@@ -108,16 +108,16 @@ doe_content: <h3 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-siz
             </p>
             <p style="font-family:Arial,Helvetica,sans-serif;line-height: 1.5;font-size:16px;" class="indent">
               <i>Canst thou draw out leviathan with an hook? or his tongue with a cord which thou lettest down?<sup style="font-size:10px;">5</sup></i>
-            </p>
-doe_references:<li  style="color:grey">Job 40:15-19, KJV</li>
+            </p>'''
+doe_references:'''<li  style="color:grey">Job 40:15-19, KJV</li>
             <li  style="color:grey">Job 41:18-21, KJV</li>
             <li  style="color:grey">Job 41:30-33, KJV</li>
             <li  style="color:grey">Job 40:20-21, KJV</li>
-            <li  style="color:grey">Job 41:1, KJV</li>
+            <li  style="color:grey">Job 41:1, KJV</li>'''
 doe_link: https://talkiocs.blogspot.com/2021/03/leviathans-and-behemoths.html
 cotw_title: The Meadowhawk
 cotw_authors: Ebenezer Jiang
-cotw_content:<h3 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size: 35px; margin-top:0;text-align:center;" class="aheading crop">
+cotw_content:'''<h3 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-size: 35px; margin-top:0;text-align:center;" class="aheading crop">
             <img
             src="https://lh3.googleusercontent.com/-um_YT2HPinw/YF6CNie_X0I/AAAAAAAAEv8/ucvYjqSQFCQqtcu-JfYkCdpQfRfHhZWigCK8BGAsYHg/s0/2021-03-26.jpg?authuser=0"
             alt="Creature of the Week"
@@ -150,12 +150,12 @@ cotw_content:<h3 style="font-family:'Trebuchet MS',Helvetica,sans-serif;font-siz
           <p style="font-family:Arial,Helvetica,sans-serif;line-height: 1.5;font-size:16px;" class="indent">
               “<i>The earth is the <span style="font-family:'Capitals',Helvetica,sans-serif;font-size:14px;">Lord</span>'s,
                 and the fulness thereof; the world, and they that dwell therein.</i>”<sup style="font-size:10px;">1</sup>
-          </p>
+          </p>'''
 cotw_references:<li  style="line-height: 1.5; color:grey" class="sm">Psalm 24:1, KJV</li>
 cotw_link:https://talkiocs.blogspot.com/2021/03/the-meadowhawk.html
 cc_img_link:https://lh3.googleusercontent.com/-tLea5nlPWok/YF57ISzz8DI/AAAAAAAAEvo/2t8AaXwCUEwJRk2phcIR3u6kTSHc6uHNACK8BGAsYHg/s0/2021-03-26.png
 cc_author:Ebenezer Jiang
-cc_description:Evolution: Reality or Idea?
+cc_description: Evolution - Reality or Idea?
 layout: layout
 permalink:/march-27-2021/
 ---
