@@ -1,4 +1,5 @@
 ---
+permalink:/march-27-2021/
 title: Newsletter for March 27, 2021
 date: 2021-03-27 02:10:53 -0500
 category: newsletters
@@ -157,5 +158,4 @@ cc_img_link:https://lh3.googleusercontent.com/-tLea5nlPWok/YF57ISzz8DI/AAAAAAAAE
 cc_author:Ebenezer Jiang
 cc_description: Evolution - Reality or Idea?
 layout: layout
-permalink:/march-27-2021/
 ---
