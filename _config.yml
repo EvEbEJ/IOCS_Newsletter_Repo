@@ -2,3 +2,10 @@ theme: jekyll-theme-cayman
 permalink: :year/:month/:day/:title:output_ext
 plugins:
   - jekyll-archives
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
