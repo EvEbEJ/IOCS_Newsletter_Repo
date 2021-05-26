@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 permalink: :year/:month/:day/:title:output_ext
+plugins:
+  - jekyll-archives
