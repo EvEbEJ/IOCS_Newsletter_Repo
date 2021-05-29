@@ -1,27 +1,18 @@
 ---
-layout: page
+layout: home_layout
 title: "Newsletters"
 permalink: /newsletters/
 ---
-<!Doctype HTML>
-<html>
-  <head>
-    <link rel="stylesheet" href="/IOCS_Newsletter_Repo/styles/styles.css"/>
-    <title>IOCS Newsletter Archives</title>
-  </head>
-  <body style="background-color:#eee;">
-    <!--<a href="https://evebej.github.io/IOCS_Newsletter_Repo/" class="back">Back to Homepage</a>-->
-    <h1>IOCS Newsletters</h1>
-    <a href="/IOCS_Newsletter_Repo/all-newsletters/" class="link">This link leads to all past newsletters</a>
-    <h2>2021</h2>
-    <ul>
-      {% for post in site.posts %}
-      {% if post.year == "2021" %}
-         <li>
-           <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
-         </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </body>
-</html>
+<!--<a href="https://evebej.github.io/IOCS_Newsletter_Repo/" class="back">Back to Homepage</a>-->
+<h1>IOCS Newsletters</h1>
+<a href="/IOCS_Newsletter_Repo/all-newsletters/" class="link">This link leads to all past newsletters</a>
+<h2>2021</h2>
+<ul>
+  {% for post in site.posts %}
+  {% if post.year == "2021" %}
+     <li>
+       <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
+     </li>
+  {% endif %}
+  {% endfor %}
+</ul>
