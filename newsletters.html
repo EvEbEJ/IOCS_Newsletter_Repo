@@ -43,6 +43,17 @@ permalink: /newsletters/
       .back:hover{
         text-decoration:underline;
       }
+      .link{
+        font-family:Verdana, Helvetica, sans-serif;
+        font-size: 20px;
+        transition: 2s ease;
+      }
+      .link:hover,.link:active{
+        text-decoration:underline;
+      }
+      .link:active{
+        color:lightblue;
+      }
     </style>
     <title>IOCS Newsletter Archives</title>
   </head>
@@ -59,5 +70,6 @@ permalink: /newsletters/
       {% endif %}
       {% endfor %}
     </ul>
+    <a href="/all-newsletters/" class="link">This link leads to all past newsletters</a>
   </body>
 </html>
