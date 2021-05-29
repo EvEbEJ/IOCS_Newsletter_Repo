@@ -1,25 +1,16 @@
 ---
-layout: page
+layout: home-layout
 title: "Newsletters"
 permalink: /all-newsletters/
 ---
-<!Doctype HTML>
-<html>
-  <head>
-    <link rel="stylesheet" href="/IOCS_Newsletter_Repo/styles/styles.css"/>
-    <title>IOCS Newsletter Archives</title>
-  </head>
-  <body style="background-color:#eee;">
-    <!--<a href="https://evebej.github.io/IOCS_Newsletter_Repo/" class="back">Back to Homepage</a>-->
-    <h1>ALL IOCS Newsletters</h1>
-    <a href="/IOCS_Newsletter_Repo/newsletters/" class="link">Back to this year's posts.</a>
-    <ul>
-      {% for post in site.posts %}
-         <li>
-           <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
-         </li>
-      {% endfor %}
-    </ul>
-    <p>Earlier Newsletters still being processed.</p>
-  </body>
-</html>
+<!--<a href="https://evebej.github.io/IOCS_Newsletter_Repo/" class="back">Back to Homepage</a>-->
+<h1>ALL IOCS Newsletters</h1>
+<a href="/IOCS_Newsletter_Repo/newsletters/" class="link">Back to this year's posts.</a>
+<ul>
+  {% for post in site.posts %}
+     <li>
+       <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
+     </li>
+  {% endfor %}
+</ul>
+<p>Earlier Newsletters still being processed.</p>
