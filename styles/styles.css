@@ -1,3 +1,28 @@
+
+.ul{
+        display:block;
+        width:100%;
+        background-color: #6094b3;
+        float:left;
+        margin-left: 0;
+}
+.ul li{
+        display:inline-block;
+        background-color: #6094b3;
+}
+.navbtn{
+        padding:20px 20px;
+        margin: 0px;
+        background-color: #6094b3;
+        color:black;
+        transition: 1s ease;
+        display:inline-block;
+        font-family:Verdana, Helvetica, sans-serif;
+}
+.navbtn:hover{
+        background-color:#175b85;
+        color:white;
+}
 p{
         color:#ccc; 
         text-align:center; 
