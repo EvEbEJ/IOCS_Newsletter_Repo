@@ -3,22 +3,22 @@ p{
         text-align:center; 
         font-family: Verdana, Helvetica, sans-serif;
         margin-top:20px;
-      }
-      h1, h2{
+}
+h1, h2{
         font-family:"Trebuchet MS",Helvetica,sans-serif;
         font-size:30px;
-      }
-      h2{
+}
+h2{
         text-align:center;
-      }
-      a{
+}
+a{
         color:dodgerblue;
         text-decoration:none;
-      }
-      li{
+}
+li{
         list-style-type:none;
-      }
-      .post{
+}
+.post{
         text-decoration:none;
         color:black;
         background-color:white;
@@ -32,21 +32,21 @@ p{
         font-size:20px;
         display:block;
         transition: width 1s;
-      }
-      .post:hover{
+}
+.post:hover{
         width:85%;
         color:#ddd;
-      }
-      .back:hover{
+}
+.back:hover{
         text-decoration:underline;
-      }
-      
-      .link{
+}
+
+.link{
         font-family:Verdana, Helvetica, sans-serif;
         font-size: 15px;
         transition: 1s ease;
-      }
-      .link:hover,.link:active{
+}
+.link:hover,.link:active{
         text-decoration:underline;
         color:lightblue;
-      }
+}
