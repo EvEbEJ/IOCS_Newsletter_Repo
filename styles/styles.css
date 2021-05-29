@@ -23,6 +23,11 @@
         background-color:#175b85;
         color:white;
 }
+.navbar{
+        left:0;
+        align:left;
+        padding:0;
+}
 p{
         color:#ccc; 
         text-align:center; 
