@@ -1,0 +1,78 @@
+---
+layout: page
+title: "About IOCS Newsletters"
+permalink: /about/
+---
+<!Doctype HTML>
+<html>
+  <head>
+    <style>
+      p{
+        color:#ccc; 
+        text-align:center; 
+        font-family: Verdana, Helvetica, sans-serif;
+        margin-top:20px;
+      }
+      h1, h2{
+        font-family:"Trebuchet MS",Helvetica,sans-serif;
+        font-size:30px;
+      }
+      h2{
+        text-align:center;
+      }
+      a{
+        color:dodgerblue;
+        text-decoration:none;
+      }
+      li{
+        list-style-type:none;
+      }
+      .post{
+        text-decoration:none;
+        color:black;
+        background-color:white;
+        padding:20px;
+        border-radius:5px;
+        border:none;
+        width:70%;
+        margin:10px auto;
+        text-align:center;
+        font-family:"Trebuchet MS",Helvetica,serif;
+        font-size:20px;
+        display:block;
+        transition: width 1s;
+      }
+      .post:hover{
+        width:85%;
+        color:#ddd;
+      }
+      .back:hover{
+        text-decoration:underline;
+      }
+      
+      .link{
+        font-family:Verdana, Helvetica, sans-serif;
+        font-size: 15px;
+        transition: 1s ease;
+      }
+      .link:hover,.link:active{
+        text-decoration:underline;
+        color:lightblue;
+      }
+    </style>
+    <title>About</title>
+  </head>
+  <body style="background-color:#eee;">
+    <!--<a href="https://evebej.github.io/IOCS_Newsletter_Repo/" class="back">Back to Homepage</a>-->
+    <h1>ALL IOCS Newsletters</h1>
+    <a href="/IOCS_Newsletter_Repo/newsletters/" class="link">Back to this year's posts.</a>
+    <ul>
+      {% for post in site.posts %}
+         <li>
+           <a href="https://evebej.github.io/IOCS_Newsletter_Repo{{ post.url }}" class="post">{{ post.title }}</a>
+         </li>
+      {% endfor %}
+    </ul>
+    <p>Earlier Newsletters still being processed.</p>
+  </body>
+</html>
