@@ -1,4 +1,7 @@
-
+body{
+        margin:0px;
+        padding:0px;
+}
 .ul{
         display:block;
         width:100%;
