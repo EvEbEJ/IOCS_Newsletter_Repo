@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color:#4f4f4f;
+}
+
+button {
+    border: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+tr {
+    position: relative;
+}
+
+select, datalist {
+    padding: 10px;
+    border: 2px solid #bbb;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #bbb;
+}
+
+input[type="text"] {
+    width: clamp(200px, 300px, 500px);
+}
+
+/* Universal Classes */
+
+.m-5 {
+    margin: 5px auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.bg-blue {
+    background-color: #8cf;
+}
+
+.bg-blue:hover {
+    background-color: #6be;
+}
+
+/**/
+
+#lb-w, #lb-h {
+    width: 100px;
+}
+
+#container {
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 100vw;
+    height: 100vh;
+}
+
+#display { 
+    position: absolute;
+    margin-top: 50px;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: calc(100% - 50px);
+    padding: 0;
+    background-color: #eee;
+}
+
+#display-content {
+    position: relative;
+}
+
+
+/* Edit bar */
+
+#edit-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ddd;
+    z-index: 2;
+    padding: 0;
+}
+
+.bar-btn {
+    min-width: 50px;
+    height: 50px;
+    font-family: 'Tahoma', Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 20px;
+}
+
+.bar-btn:hover {
+    background-color: #0001;
+}
+
+.bar-btn:active {
+    background-color: #0002;
+}
+
+/* Modals */
+#modal-background {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #0005;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 700px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 50px;
+    z-index: 10;
+    display: none;
+    word-wrap: break-word;
+}
+
+.close-modal {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000e;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.close-modal:hover {
+    background-color: #0001;
+}
+
+.close-modal:active {
+    color: #000c;
+    background-color: #0003;
+}
+
+.del-row {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000c;
+}
+
+.del-row:hover {
+    color: #0008;
+}
+
+#code-txta {
+    width: 100%;
+    height: 90%;
+    border: 2px solid #eee;
+    font-family: 'Tahoma', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    overflow: auto;
+    resize: none;
+    padding: 5px;
+}
+
+#code-txta:focus {
+    outline: 2px solid lightblue;
+    background-color: #eee;
+}
+
+/* Link Box */
+#link-box {
+    display: none;
+    position: absolute;
+    background-color: #fffd;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    z-index: 2; 
+    word-wrap: break-word;
+}
+
+#link-box label {
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+#close-box {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000e;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#close-box:hover {
+    background-color: #0001;
+}
+
+#close-box:active {
+    color: #000c;
+    background-color: #0003;
+}
+
+/* Insert Row */
+#insert-row {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 2;
+}
+
+#insert-row:hover {
+    display: block;
+    background-color: #ccc;
+}

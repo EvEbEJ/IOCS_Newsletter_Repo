@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditX v1.0.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://evebej.github.io/IOCS_Newsletter_Repo/styles/post.css">
+</head>
+<body style="font-family: Arial, sans-serif;color:#4f4f4f;background-color: #eee;padding-top:20px;padding-bottom:20px;padding-left:0">
+    <div id="modal-background">
+        <div id="code-modal" class="modal">
+            <span class="close-modal">&times;</span>
+            <span id="code-copy"></span>
+        </div>
+        <div id="import-modal" class="modal">
+            <span class="close-modal">&times;</span>
+            <label for="code-txta" style="margin-bottom: 20px">Code:</label>
+            <textarea name="code-txta" id="code-txta" class="m-5"></textarea>
+            <button class="bg-blue w-100" type="submit">Import Code</button>
+        </div>
+    </div>
+    <button id="insert-row">&plus;</button>
+    <div id="container">
+        <div id="display">
+            <div id="link-box">
+                <div>
+                    <label for="lb-alt" class="alt"></label>
+                    <input type="text" name="lb-alt" id="lb-alt" placeholder="New Alt">
+                </div>
+                <div>
+                    <label for="lb-alt" class="title"></label>
+                    <input type="text" name="lb-title" id="lb-title" placeholder="New Title">
+                </div>
+                <div>
+                    <label for="lb-src" class="src"></label>
+                    <input type="text" name="lb-src" id="lb-src" placeholder="New Source">
+                    <br>
+                </div>
+                <div>
+                    <label for="lb-href" class="href"></label>
+                    <input type="text" name="lb-href" id="lb-href" placeholder="New Href">
+                </div>
+                <div>
+                    <label for="lb-w" class="width"></label>
+                    <input type="text" name="lb-w" id="lb-w" placeholder="Width">
+                    <label for="lb-h" class="height"></label>
+                    <input type="text" name="lb-h" id="lb-h" placeholder="Height">
+                </div>
+                <button type="submit" id="sub-lb" class="bar-btn">Change</button>
+                <span id="close-box">&times;</span>
+            </div>
+            <div id="edit-bar">
+                <select id="row-type">
+                    <option value="Normal">Normal</option>
+                    <option value="Alert">Alert</option>
+                    <option value="Article">Article</option>
+                    <option value="Banner">Banner</option>
+                    <option value="Photo">Photo</option>
+                </select>
+                <button id="add-row" class="bar-btn">
+                    Add Row
+                </button>
+                <select id="text-type">
+                    <option value="Anchor">Anchor</option>
+                    <option value="Heading 1">Heading 1</option>
+                    <option value="Heading 2">Heading 2</option>
+                    <option value="Paragraph">Paragraph</option>
+                    <option value="Banner">Banner</option>
+                    <option value="Image">Image</option>
+                </select>
+                <button id="add-text" class="bar-btn">
+                    Add Text
+                </button>
+                <button id="code" class="bar-btn">
+                    Generate Code
+                </button>
+                <button id="import" class="bar-btn">
+                    Import
+                </button>
+                <button class="align-btn bar-btn" data-align="left"><img src="img/align-left-solid.svg" alt="Align Left"></button>
+                <button class="align-btn bar-btn" data-align="center"><img src="img/align-center-solid.svg" alt="Align Center"></button>
+                <button class="align-btn bar-btn" data-align="right"><img src="img/align-right-solid.svg" alt="Align Right"></button>
+                <button class="align-btn bar-btn" data-align="justify"><img src="img/align-justify-solid.svg" alt="Align Justify"></button>
+            </div>
+            <div id="display-content">
+                <table style="border-collapse: collapse;border:14px solid #eee;padding:25px; width:100%; width:800px; margin-left: auto; margin-right: auto; margin-top:20px; margin-bottom:20px;" class="main-table">
+                    <colgroup>
+                    <col span="2" style="background-color:#eee; width:500px;">
+                    </colgroup>
+                    <tr>
+                    <!-- Created Logo -->
+                    <td colspan="1" style="padding:0">
+                        <div style="float:left;">
+                        <h1 style="text-align:center"><img
+                        src="https://evebej.github.io/IOCS_Newsletter_Repo/images/NewsletterLogo.png"
+                        alt="IOCS Logo"
+                        style="width:800px;"></h1>
+                    </div>
+                    </td>
+                </tr>
+                </table>
+                <table style="border-collapse: collapse;border:14px solid white;color:#4f4f4f;padding:25px; width:100%; width:800px; margin-left: auto; margin-right: auto; margin-top:20px; margin-bottom:20px;" class="main-table">
+                    <colgroup>
+                        <col span="4" style="background-color:white; width:500px;">
+                    </colgroup>
+                    <!-- Content -->
+                    <tbody id="newsletter-content">
+                    </tbody>
+                    <tbody id="newsletter-content2">
+                        <!-- Feedback Alert -->
+                        <tr style="border:2px solid lightgray;">
+                        <td colspan="4" style="padding:40px;" class="article">
+                            <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;font-size:16px;font-weight:bold; text-align:center">To give feedback, Click this <a style="color:dodgerblue" href="https://forms.gle/Y4aGrK2Uc1jembAu7">link</a>.</p>
+                            <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;font-size:16px;font-weight:bold; text-align:center">Or you can chat with us on our website at <a style="color:dodgerblue" href="iocsmin.wixsite.com/iocs">iocsmin.wixsite.com/iocs</a>.</p>
+                        </td>
+                        </tr>
+                        <!-- Sub Ad 2 -->
+                        <tr style="border:2px solid lightgray;">
+                        <td colspan="4" style="padding:40px;" class="article">
+                            <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;font-size:16px;font-weight:bold; text-align:center">Do you know someone interested in creation or who would benefit from this newsletter?
+                            If so, share this link to them! It contains the subscription form to the newsletter: <a style="color:dodgerblue" href="https://iocsmin.wixsite.com/iocs/subscribe">https://iocsmin.wixsite.com/iocs/subscribe</a></p>
+                        </td>
+                        </tr>
+                        <!-- Blogger Alert -->
+                        <tr style="border:2px solid lightgray;">
+                        <td colspan="4" style="padding:40px;" class="article">
+                            <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;font-size:16px;font-weight:bold; text-align:center">For all past newsletter articles, visit our blog at <a style="color:dodgerblue" href="https://iocsmin.wixsite.com/iocs/blog">https://iocsmin.wixsite.com/iocs/blog</a>
+                            </p>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="border-collapse: collapse;border:14px solid #eee;padding:25px; width:100%; width:800px; margin-left: auto; margin-right: auto; margin-top:20px; margin-bottom:20px;" class="main-table">
+                    <colgroup>
+                    <col span="4" style="background-color:#eee; width:500px;">
+                    </colgroup>
+                    <!--Footer-->
+                    <tr>
+                    <td>
+                        <div style="font-size:12px; text-align:center;">
+                        <img src="https://evebej.github.io/IOCS_Newsletter_Repo/images/Map%20(1).png"
+                        alt="World Map with IOCS countries colored."
+                        style="width:800px;border:10px solid lightgray;">
+                        <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;" class="sm">IOCS is international in these countries:</p>
+                        <b>
+                            <ul style="list-style-type:none;">
+                                <li>The United States of America</li>
+                                <li>Australia</li>
+                                <li>Singapore</li>
+                            </ul>
+                        </b>
+                        </div>
+                        <hr>
+                    </td>
+                    </tr>
+                    <!-- Credentials -->
+                    <tr>
+                    <td colspan="4" style="padding:0 20 10 20" class="footer">
+                        <div style="font-size:12px; text-align:center;">
+                        <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;" class="sm"><i>The Created Newsletter</i></p>
+                        <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;" class="sm">Property of the International Organization for Creation Science (IOCS)</p>
+                        <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;" class="sm">Copyrighted &#169; All rights reserved.</p>
+                        <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;" class="sm">All photos used are part of IOCS or used with permission.</p>
+                        </div>
+                        <div style="padding-left: 20px; font-size:12px; text-align:center; line-height:1.5">
+                        <a style="color:dodgerblue" href="mailto:online.iocs@gmail.com">
+                            Contact</a>
+                        </p>
+                        <p>If this newsletter was forwarded to you, and you would like to subscribe,
+                        click this <a style="color:dodgerblue" href="https://iocsmin.wixsite.com/iocs/subscribe">link</a>.</p>
+                        <p>Or you can go to <u>https://iocsmin.wixsite.com/iocs/subscribe</u></p>
+                        </div>
+                    </td>
+                    </tr>
+                    <!--Logo & Etc.-->
+                    <tr>
+                    <td>
+                        <div style="display: flex;align-items: center;justify-content: center">
+                        <p style="text-align:center"><img
+                        src="https://evebej.github.io/IOCS_Newsletter_Repo/images/iocs_logo.png"
+                        alt="IOCS Logo"
+                        style="width:50px; height:50px; float:left;"></p>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td colspan="4" class="footer" style="padding:0;">
+                        <div style="display: flex;align-items: center;justify-content: center">
+                        <div style="padding-left: 20px; font-size:12px; text-align:left">
+                            <p>The International Organization of Creation Science (No established headquarters).</p>
+                        </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <!-- Media Accounts -->
+                    <tr>
+                    <td colspan="4" class="article footer-as" style="padding-top:10px;">
+                        <p style="font-family:'Open Sans',Helvetica,sans-serif;line-height: 1.5;font-size:16px;font-weight:bold; text-align:center;">
+                        <a style="color:dodgerblue" href="https://instagram.com/iocscreation" class="follow-icon-a"><img class="follow-icon instagram-icon" src="https://lh3.googleusercontent.com/-ozoQEitP9_8/YB7qLe9oTiI/AAAAAAAAEaw/nhM8Cz4yb-cumWUgUXPNIQQXfettiC6zwCK8BGAsYHg/s0/2021-02-06.webp"></img></a>
+                        <a style="color:dodgerblue" href="https://pinterest.com/iocscreation" class="follow-icon-a"><img class="follow-icon pinterest-icon" src="https://lh3.googleusercontent.com/-Ip6njeR2psA/YB7sBmqT3VI/AAAAAAAAEa8/GfTBq4SEW2IpUKt8KtyMbIYGOISL2Y1QwCK8BGAsYHg/s0/2021-02-06.png"></img></a>
+                        <a style="color:dodgerblue" href="https://twitter.com/iocscreation" class="follow-icon-a"><img class="follow-icon twitter-icon" src="https://lh3.googleusercontent.com/-3NHchxtExng/YB7sDA06FUI/AAAAAAAAEbE/OHDIah8Ti8UuP11PY4K6i-QBLU3u5WSOwCK8BGAsYHg/s0/2021-02-06.png"></img></a>
+                        <a style="color:dodgerblue" href="https://www.youtube.com/channel/UCX8nxdRJ-PmGN7wHaQ_-1Yw" class="follow-icon-a"><img class="follow-icon youtube-icon" src="https://lh3.googleusercontent.com/-_uNa63ntaXA/YB7sCkqg_GI/AAAAAAAAEbA/XxtPTwhj2U4D7Qm4Mafvb1hLd520VF65gCK8BGAsYHg/s0/2021-02-06.png"></img></a>
+                        </p>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="rowTypes.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/06b44fd96d.js" crossorigin="anonymous"></script>
+</body>
+</html>
